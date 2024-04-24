@@ -1,5 +1,5 @@
 
-const hamburger =document.querySelector(".hamburger")
+const hamburger = document.querySelector(".hamburger")
 
 const Navmenu = document.querySelector(".first-ul");
 
@@ -38,25 +38,6 @@ const toggleCompany = () => {
     companyList.classList.toggle("nav-company-list");
   });
 }
-toggleCompany();
+ toggleCompany();
 
 // close anywhere
-
-// document.documentElement.addEventListener('click', function () {
-//   if(feautureList.classList.contains("nav-feature-list")) {
-//     feautureList.classList.remove("nav-feature-list");
-//   };
-
-//   if(featureArrow.classList.contains("feature-arrow")) {
-//     featureArrow.classList.remove("feature-arrow");
-//   };
-
-//   if (companyList.contains("nav-company-list")) {
-//     companyList.classList.remove("company-arrow");
-//   };
-
-//   if (companyArrow.classList.contains(" company-arrow")) {
-//     companyArrow.classList.remove("company-arrow");
-//   };
-// });
- 
